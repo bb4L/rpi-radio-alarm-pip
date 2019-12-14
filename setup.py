@@ -8,7 +8,7 @@ from os import path
 
 setup(
     name='rpi-radio-alarm',
-    version='0.1.6',
+    version='0.1.8',
     license='BSD-3',
     description='rpi-radio-alarm library',
     long_description=open('README.md').read(),
@@ -20,7 +20,7 @@ setup(
     keywords=['Raspberry Pi', 'radio', 'alarm'],
     install_requires=[
         'aiohttp==3.5.4',
-        'async-timout==3.0.1',
+        'async-timeout==3.0.1',
         'attrs==19.3.0',
         'chardet==3.0.4',
         'discord==1.0.1',
