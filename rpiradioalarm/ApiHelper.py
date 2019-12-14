@@ -11,7 +11,8 @@ class ApiHelper(object):
     def __init__(self):
         load_dotenv()
         self.FUNCTIONS = {COMMANDS.GET_ALARMS: self.__get_alarms, COMMANDS.GET_ALARM: self.__get_alarms,
-                          COMMANDS.CHANGE_ALARM: self.__change_alarm}
+                          COMMANDS.CHANGE_ALARM: self.__change_alarm, COMMANDS.START_RADIO: self.__start_radio,
+                          COMMANDS.STOP_RADIO: self.__stop_radio}
 
     def do_command(self, cmd, args):
         self.conn = HTTPConnection(os.getenv('RPI-RADIO-ALARM-URL'))
