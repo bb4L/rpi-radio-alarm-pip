@@ -1,5 +1,5 @@
 from distutils.core import setup
-from setuptools import setup
+from setuptools import setup, find_packages, find_namespace_packages
 from os import path
 
 # this_directory = path.abspath(path.dirname(__file__))
@@ -8,7 +8,7 @@ from os import path
 
 setup(
     name='rpi-radio-alarm',
-    version='0.1.8',
+    version='0.1.22',
     license='BSD-3',
     description='rpi-radio-alarm library',
     long_description=open('README.md').read(),
@@ -16,7 +16,8 @@ setup(
     author='bb4L',
     author_email='39266013+bb4L@users.noreply.github.com',
     url='https://github.com/bb4L/rpi-radio-alarm-pip',
-    packages=['rpi-radio-alarm'],
+    # packages=['rpi-radio-alarm.helper'],
+    packages=['rpiradioalarm'],
     keywords=['Raspberry Pi', 'radio', 'alarm'],
     install_requires=[
         'aiohttp==3.5.4',
@@ -39,4 +40,5 @@ setup(
         'Programming Language :: Python :: 3',
         'Programming Language :: Python :: 3.6',
     ],
+    include_package_data=True,
 )
