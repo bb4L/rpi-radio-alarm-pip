@@ -1,2 +1,2 @@
-# rpi-radio-alarm-pip
+# rpi-radio-alarm
 package for the rpi-radio-alarm development
