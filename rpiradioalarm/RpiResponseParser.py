@@ -32,5 +32,5 @@ class ResponseParser(object):
         return self.__radio_string(args, response)
 
     @staticmethod
-    def __radio_string(response, args):
+    def __radio_string(args, response):
         return response

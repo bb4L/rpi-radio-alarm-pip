@@ -3,7 +3,7 @@ from setuptools import setup
 
 setup(
     name='rpi-radio-alarm',
-    version='0.3.3',
+    version='0.3.4',
     license='BSD-3',
     description='rpi-radio-alarm library',
     long_description=open('README.md').read(),
