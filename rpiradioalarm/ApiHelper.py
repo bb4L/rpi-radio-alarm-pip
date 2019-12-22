@@ -2,7 +2,8 @@ import json
 import os
 from http.client import HTTPConnection
 from dotenv import load_dotenv
-from . import COMMANDS, ALARM_IDX, ResponseParser
+from .constants import COMMANDS, ALARM_IDX
+from .RpiResponseParser import ResponseParser
 
 
 class ApiHelper(object):

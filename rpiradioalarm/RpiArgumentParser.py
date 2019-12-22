@@ -1,6 +1,6 @@
 import os
 
-from rpiradioalarm import COMMANDS, ALARM_IDX
+from .constants import COMMANDS, ALARM_IDX
 
 
 class RpiArgumentParser(object):
