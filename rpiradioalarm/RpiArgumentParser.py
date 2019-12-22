@@ -1,19 +1,9 @@
 import os
-from enum import Enum
 
-ALARM_IDX: str = 'alarm_idx'
-
-
-class COMMANDS(Enum):
-    GET_ALARM = 'get alarm'
-    GET_ALARMS = 'alarms'
-    CHANGE_ALARM = 'c alarm'
-    STOP_RADIO = 'st radio'
-    START_RADIO = 's radio'
+from rpiradioalarm import COMMANDS, ALARM_IDX
 
 
 class RpiArgumentParser(object):
-    ALARM_IDX = 'alarm_idx'
     parse_fun: dict
 
     def __init__(self):
@@ -43,7 +33,7 @@ class RpiArgumentParser(object):
         if len(args_splitted) > 1:
             for i in range(1, len(args_splitted) - 1, 2):
                 args[args_splitted[i]] = self.parse_fun.get(args_splitted[i])(args_splitted[i + 1])
-            args[self.ALARM_IDX] = args_splitted[0]
+            args[ALARM_IDX] = args_splitted[0]
         elif len(args_splitted) > 0:
             args = args_splitted[0]
         else:
