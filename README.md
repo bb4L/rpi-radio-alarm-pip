@@ -5,6 +5,10 @@
 [![PyPI - Status](https://img.shields.io/pypi/status/rpi-radio-alarm)](https://pypi.org/project/rpi-radio-alarm/)
 [![PyPI - License](https://img.shields.io/pypi/l/rpi-radio-alarm)](https://pypi.org/project/rpi-radio-alarm/)
 
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/bb4l/rpi-radio-alarm-pip)
+![GitHub last commit](https://img.shields.io/github/last-commit/bb4l/rpi-radio-alarm-pip)
+
+
 Package to simplify the communication to a instance of the [rpi-radio-alarm](https://github.com/bb4L/rpi-radio-alarm)
 
 # Usage
