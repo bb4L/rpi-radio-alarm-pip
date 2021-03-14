@@ -1,4 +1,10 @@
 # rpi-radio-alarm
+
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/rpi-radio-alarm)
+[![PyPI](https://img.shields.io/pypi/v/rpi-radio-alarm)](https://pypi.org/project/rpi-radio-alarm/)
+[![PyPI - Status](https://img.shields.io/pypi/status/rpi-radio-alarm)](https://pypi.org/project/rpi-radio-alarm/)
+[![PyPI - License](https://img.shields.io/pypi/l/rpi-radio-alarm)](https://pypi.org/project/rpi-radio-alarm/)
+
 Package to simplify the communication to a instance of the [rpi-radio-alarm](https://github.com/bb4L/rpi-radio-alarm)
 
 # Usage
